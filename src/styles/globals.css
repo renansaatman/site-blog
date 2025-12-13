@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  svg {
+    shape-rendering: auto;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+  }
+}
